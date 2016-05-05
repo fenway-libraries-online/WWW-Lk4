@@ -5,7 +5,7 @@ use warnings;
 
 use DB_File;
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 use constant KEYJOINER => "\x1c";
 
