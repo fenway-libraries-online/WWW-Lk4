@@ -235,7 +235,7 @@ sub compile_menu {
             $uri = $self->compile_general_expression($uri);
             $label = $self->compile_general_expression($label);
         }
-        else {
+        elsif (!/^(?:#.*)?$/) {
             die;
         }
     }
